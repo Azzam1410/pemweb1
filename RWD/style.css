@@ -1,0 +1,56 @@
+.jumbotron{
+    padding: 6rem;
+    background-color: orange;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin-top: 56px; /* To account for the fixed navbar */
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 5rem 1rem;
+    text-align: center;
+}
+
+.carousel img {
+    object-fit: cover;
+    height: 400px;
+}
+
+/* Responsive Table */
+table {
+    margin-top: 20px;
+}
+
+table th, table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #ffc107;
+    color: white;
+    padding: 15px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .j
